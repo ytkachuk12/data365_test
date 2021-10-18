@@ -1,0 +1,85 @@
+2021-10-18 11:45:17,039 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-18 11:45:17,061 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 11:45:17,449 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 11:45:17,456 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 11:46:31,521 DEBUG flask_app Thread-3 : hi
+2021-10-18 11:46:31,607 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 11:46:31] "POST /users HTTP/1.1" 200 -
+2021-10-18 11:48:39,793 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 11:48:39,843 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 11:48:43,456 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 11:48:43,492 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 11:48:43,650 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 11:48:43] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-10-18 11:49:01,822 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 11:49:01,864 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 11:49:02,289 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 11:49:22,105 INFO flask_app Thread-3 : 0.00271s
+2021-10-18 11:49:22,106 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 11:49:22] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-10-18 11:52:10,198 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 11:52:10,255 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 11:52:10,671 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 11:52:10,677 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 11:52:11,642 INFO flask_app Thread-3 : Request processing time:0.00180s
+2021-10-18 11:52:11,643 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 11:52:11] "[31m[1mPOST /users HTTP/1.1[0m" 400 -
+2021-10-18 11:53:04,770 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 11:53:04,819 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 11:53:06,489 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 11:53:11,696 INFO flask_app Thread-3 : Request processing time: 0.08268s
+2021-10-18 11:53:11,696 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 11:53:11] "POST /users HTTP/1.1" 200 -
+2021-10-18 11:54:44,988 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 11:54:45,033 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 11:56:24,855 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 11:56:26,711 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:34:10,007 INFO werkzeug MainThread :  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2021-10-18 12:34:10,076 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:34:11,212 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 12:34:11,277 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:34:53,076 INFO flask_app Thread-3 : Request processing time: 0.06269s
+2021-10-18 12:34:53,095 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:34:53] "[33mGET /users/tweets/ HTTP/1.1[0m" 404 -
+2021-10-18 12:35:27,569 INFO flask_app Thread-4 : Request processing time: 0.08054s
+2021-10-18 12:35:27,586 INFO werkzeug Thread-4 : 127.0.0.1 - - [18/Oct/2021 12:35:27] "POST /users HTTP/1.1" 200 -
+2021-10-18 12:36:25,627 INFO flask_app Thread-5 : Request processing time: 0.07339s
+2021-10-18 12:36:25,627 INFO werkzeug Thread-5 : 127.0.0.1 - - [18/Oct/2021 12:36:25] "POST /tweets HTTP/1.1" 200 -
+2021-10-18 12:36:32,103 INFO flask_app Thread-6 : Request processing time: 0.00262s
+2021-10-18 12:36:32,104 INFO werkzeug Thread-6 : 127.0.0.1 - - [18/Oct/2021 12:36:32] "POST /tweets HTTP/1.1" 200 -
+2021-10-18 12:37:07,218 INFO flask_app Thread-7 : Request processing time: 0.00128s
+2021-10-18 12:37:07,219 INFO werkzeug Thread-7 : 127.0.0.1 - - [18/Oct/2021 12:37:07] "[33mGET /users/tweets/?author_id=4 HTTP/1.1[0m" 404 -
+2021-10-18 12:38:15,970 INFO flask_app Thread-8 : Request processing time: 0.07289s
+2021-10-18 12:38:15,994 INFO werkzeug Thread-8 : 127.0.0.1 - - [18/Oct/2021 12:38:15] "GET /users/?user_id=4 HTTP/1.1" 200 -
+2021-10-18 12:38:33,966 INFO werkzeug Thread-9 : 127.0.0.1 - - [18/Oct/2021 12:38:33] "[35m[1mGET /users/tweets/?user_id=4 HTTP/1.1[0m" 500 -
+2021-10-18 12:39:45,305 INFO werkzeug Thread-10 : 127.0.0.1 - - [18/Oct/2021 12:39:45] "[35m[1mGET /users/tweets/?user_id=4 HTTP/1.1[0m" 500 -
+2021-10-18 12:40:05,693 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 12:40:05,758 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:40:08,178 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 12:40:08,264 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:40:08,445 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:40:08] "[35m[1mGET /users/tweets/?user_id=4 HTTP/1.1[0m" 500 -
+2021-10-18 12:41:16,361 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 12:41:16,404 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:41:16,794 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:41:20,562 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:41:20] "[35m[1mGET /users/tweets/?user_id=4 HTTP/1.1[0m" 500 -
+2021-10-18 12:42:24,837 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 12:42:24,890 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:42:25,314 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:42:26,222 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:42:26] "[35m[1mGET /users/tweets/?user_id=4 HTTP/1.1[0m" 500 -
+2021-10-18 12:43:25,189 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 12:43:25,238 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:43:25,663 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 12:43:25,669 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:43:29,688 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:43:29] "[35m[1mGET /users/tweets/?user_id=4 HTTP/1.1[0m" 500 -
+2021-10-18 12:44:59,006 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 12:44:59,077 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:44:59,531 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 12:44:59,539 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:45:00,149 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:45:00] "[35m[1mGET /users/tweets/?user_id=4 HTTP/1.1[0m" 500 -
+2021-10-18 12:45:39,156 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 12:45:39,213 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:45:39,633 WARNING werkzeug MainThread :  * Debugger is active!
+2021-10-18 12:45:39,639 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:45:42,674 INFO flask_app Thread-3 : Request processing time: 0.00327s
+2021-10-18 12:45:42,675 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:45:42] "GET /users/tweets/?user_id=4 HTTP/1.1" 200 -
+2021-10-18 12:47:01,820 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/blog.py', reloading
+2021-10-18 12:47:01,868 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:47:02,275 INFO werkzeug MainThread :  * Debugger PIN: 135-048-167
+2021-10-18 12:51:50,930 INFO werkzeug MainThread :  * Detected change in '/Users/yurii/PycharmProjects/data365_test_task/flask_app/db.py', reloading
+2021-10-18 12:51:50,996 INFO werkzeug MainThread :  * Restarting with stat
+2021-10-18 12:51:52,462 INFO flask_app Thread-3 : Request processing time: 0.00337s
+2021-10-18 12:51:52,464 INFO werkzeug Thread-3 : 127.0.0.1 - - [18/Oct/2021 12:51:52] "GET /users/tweets/?user_id=4 HTTP/1.1" 200 -
