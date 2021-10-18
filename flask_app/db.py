@@ -1,3 +1,7 @@
+"""Define and access the database
+
+The application using a SQLite database"""
+
 from os import path
 import sqlite3
 
@@ -22,7 +26,7 @@ def get_db():
     return g.db
 
 
-def close_db(e=None):
+def close_db(exception=None):
     """If this request connected to the database, close the
     connection.
     """
@@ -38,8 +42,8 @@ def init_db():
 
     base_dir = path.dirname(path.abspath(__file__))
     db_path = path.join(base_dir, "schema.sql")
-    with current_app.open_resource(db_path) as f:
-        db.executescript(f.read().decode("utf8"))
+    with current_app.open_resource(db_path) as file:
+        db.executescript(file.read().decode("utf8"))
 
 
 @click.command("init-db")

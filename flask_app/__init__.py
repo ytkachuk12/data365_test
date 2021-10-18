@@ -1,10 +1,20 @@
+"""Test task: flask simple web service for social network backend
+
+For run application using the flask command in the terminal
+    export FLASK_APP=flask_app
+    export FLASK_ENV=development
+    flask init-db
+    flask run
+    """
+
 import os
 
 from flask import Flask
 
 
 def create_app(test_config=None):
-    """Create and configure an instance of the Flask application."""
+    """It's application factory
+    Create and configure an instance of the Flask application."""
     # create and configure the app
     app = Flask(__name__, instance_relative_config=True)
     app.config.from_mapping(
@@ -27,21 +37,13 @@ def create_app(test_config=None):
     except OSError:
         pass
 
-    # a simple page that says hello
-    @app.route('/')
-    def hello():
-        return 'Hello, World!'
-
     # register the database commands
     from flask_app import db
-
     db.init_app(app)
 
     # apply the blueprints to the app
     from flask_app import blog
-
+    # register blueprint
     app.register_blueprint(blog.bp)
-    # app.add_url_rule("/", endpoint="index")
+
     return app
-
-

@@ -1,3 +1,8 @@
+-- Initialize the database.
+-- Drop any existing data and create empty tables.
+
+-- Database has users and tweet tables
+
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS tweet;
 
